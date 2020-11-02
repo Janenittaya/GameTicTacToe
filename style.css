@@ -1,0 +1,79 @@
+    html {
+        box-sizing: border-box;
+        font-size: 20px;
+    }
+    
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+    
+    body {
+        display: flex;
+        align-items: top;
+        justify-content: center;
+        text-align: center;
+        background: url(./img/bg-01.jpg) no-repeat;
+        background-size: 100%;
+    }
+    
+    .column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .player-score {
+        font-size: 7vh;
+        border: 0px rgba(231, 7, 7, 0.774) solid;
+        width: 20vh;
+        height: 20vh;
+    }
+    
+    .player-avatar {
+        width: 20vh;
+        height: 20vh;
+        border: 0px black solid;
+    }
+    
+    #player-x-avatar {
+        background-color: blue;
+    }
+    
+    #player-o-avatar {
+        background-color: green;
+    }
+    
+    .column {
+        width: 60vw;
+    }
+    
+    .table-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .alert {
+        height: 1rem;
+    }
+    
+    table {
+        height: 60vh;
+        width: 60vh;
+    }
+    
+    td {
+        border: 1px black solid;
+        background-color: rgba(3, 3, 0, 0.788);
+    }
+    
+    .options {
+        position: absolute;
+        width: 580px;
+        height: 580px;
+        text-align: center;
+    }
